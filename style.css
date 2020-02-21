@@ -1,0 +1,102 @@
+/*
+	Author: TrizBoob
+	Creation date: 25/10/2019;
+*/
+
+/******************** GLOBAL CSS ***********************/
+@font-face {
+    font-family: 'yataghan';
+    src: url('font/yataghan-webfont.eot');
+    src: url('font/yataghan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/yataghan-webfont.woff') format('woff'),
+         url('font/yataghan-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Trouver un autre background
+body {
+	background: url("../img/teemo_back.png") bottom right no-repeat;
+}*/
+
+h1, h2, h3 {
+	font-family: yataghan, sans-serif;
+}
+
+
+/******************** HEADER CSS ***********************/
+header h1 {
+	text-align: center;
+	color: #C94444;
+}
+
+/********************** NAV CSS ************************/
+nav a {
+	color: #C94444;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	margin-bottom: 10px;
+}
+
+nav .actual {
+	border-bottom: 2px solid C94444;
+}
+
+nav li {
+	list-style: none;
+}
+
+/********************* ASIDE CSS ***********************/
+aside {
+	border: 2px solid #C94444;
+	box-shadow: 3px 3px 3px #C94444;
+}
+
+aside figure {
+	float: left;
+}
+
+aside .clear {
+	clear: both;
+}
+
+aside figure:hover {
+	color: #C94444;
+}
+
+aside figcaption {
+	text-align: center;
+}
+
+/********************** MAIN CSS ************************/
+#main {
+
+}
+
+/********************** NEWS CSS ************************/
+#news {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#news article {
+	border: 2px solid #C94444;
+	flex: 1;
+}
+
+#news h1 {
+	align-self: flex-start;
+	width: 100%;
+}
+
+/********************* FOOTER CSS ***********************/
