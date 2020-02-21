@@ -31,6 +31,7 @@ h1, h2, h3 {
 #main_wrapper {
     width: 95%;
     margin: auto;
+    min-width: 300px;
 }
 
 /******************** HEADER CSS ***********************/
@@ -41,20 +42,28 @@ header h1 {
 
 /********************** NAV CSS ************************/
 nav a {
+    display: block;
 	color: #C94444;
 	font-size: 1.3em;
 	text-decoration: none;
+    text-align: center;
+    padding: 0.5em;
+    min-width: 100px;
 }
 
 nav a:hover {
-	margin-bottom: 10px;
+	background-color: #C94444;
+    color: black;
+    border-radius: 5px;
 }
 
 nav .actual {
-	border-bottom: 2px solid C94444;
+	border-bottom: 2px solid #C94444;
 }
 
-nav li {
+nav ul {
+    display: flex;
+    justify-content: space-around;
 	list-style: none;
 }
 
@@ -87,26 +96,24 @@ aside figcaption {
 }*/
 
 /********************** NEWS CSS ************************/
-#news {
+#news_wrapper {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: stretch;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+    margin: 0 -10px 0 -10px;
 }
 
 #news article {
+    flex: 1 1 30%;
 	border: 2px solid #C94444;
     background-color: white;
-	flex: 1;
-    margin: 5px;
     padding: 5px;
+    min-width: 250px;
+    margin: 10px;
 }
 
 #news h1 {
     color: #C94444;
-	align-self: flex-start;
-	width: 100%;
 }
 
 /********************* FOOTER CSS ***********************/
