@@ -16,31 +16,39 @@
 
 * {
 	font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     background: 
         url("../img/flamme_bkg.jpg") bottom repeat-x,
         black;
+    min-width: 600px;
 }
 
 h1, h2, h3 {
 	font-family: yataghan, sans-serif;
 }
 
+/* Prévoir @media et responsive design later */
 #main_wrapper {
     width: 95%;
     margin: auto;
-    min-width: 300px;
 }
 
 /******************** HEADER CSS ***********************/
 header h1 {
 	text-align: center;
 	color: #C94444;
+    margin: 20px 0;
 }
 
 /********************** NAV CSS ************************/
+nav {
+    margin-bottom: 20px;
+}
+
 nav a {
     display: block;
 	color: #C94444;
@@ -72,10 +80,12 @@ aside {
 	border: 2px solid #C94444;
 	box-shadow: 3px 3px 3px #C94444;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 aside figure {
 	float: left;
+    margin: 10px;
 }
 
 aside .clear {
@@ -88,6 +98,10 @@ aside figure:hover {
 
 aside figcaption {
 	text-align: center;
+}
+
+aside h1 {
+    margin: 10px 0;
 }
 
 /********************** MAIN CSS ************************/
