@@ -33,6 +33,8 @@ body {
 
 h1, h2, h3 {
 	font-family: yataghan, sans-serif;
+    color: #C94444;
+    margin-bottom: 1rem;
 }
 
 /* Prévoir @media et responsive design later */
@@ -122,16 +124,12 @@ aside figure:hover {
 	color: #C94444;
 }
 
-aside h1 {
+aside h2 {
     margin: 10px 0;
 }
 
 /********************** MAIN CSS ************************/
-h1 {
-    font-size: 1.4rem;
-    color: #C94444;
-    margin-bottom: 1rem;
-}
+
 
 /********************** NEWS CSS ************************/
 #news_wrapper {
@@ -153,17 +151,15 @@ h1 {
 #news_wrapper article {
     margin-right: 10px;
 }
-/*
-#news h1 {
-    font-size: 1.4rem;
-    color: #C94444;
-    margin-bottom: 1.4rem;
-}*/
 
-#news article h1 {
+#news h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+#news article h3 {
     text-align: center;
     font-size: 1.2rem;
-    color: #C94444;
     margin-bottom: 1.2rem;
 }
 
@@ -203,8 +199,12 @@ h1 {
 }
 
 #MonCV section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+#MonCV section h3 {
     font-size: 1.2rem;
-    color: #C94444;
     margin-bottom: 0.5rem;
 }
 
