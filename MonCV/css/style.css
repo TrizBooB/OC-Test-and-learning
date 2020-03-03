@@ -43,6 +43,7 @@ h1, h2, h3 {
 
 /******************** HEADER CSS ***********************/
 header h1 {
+    font-size: 3rem;
 	text-align: center;
 	color: #C94444;
     margin: 20px 0;
@@ -126,9 +127,11 @@ aside h1 {
 }
 
 /********************** MAIN CSS ************************/
-/*#main {
-
-}*/
+h1 {
+    font-size: 1.4rem;
+    color: #C94444;
+    margin-bottom: 1rem;
+}
 
 /********************** NEWS CSS ************************/
 #news_wrapper {
@@ -150,12 +153,12 @@ aside h1 {
 #news_wrapper article {
     margin-right: 10px;
 }
-
+/*
 #news h1 {
     font-size: 1.4rem;
     color: #C94444;
     margin-bottom: 1.4rem;
-}
+}*/
 
 #news article h1 {
     text-align: center;
@@ -190,6 +193,25 @@ aside h1 {
     background: linear-gradient(90deg, rgba(148,13,13,1) 20%, rgba(253,29,29,1) 80%);
 }
 
+/********************* MON CV CSS ***********************/
+
+#MonCV section div {
+    border: 2px solid #C94444;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+#MonCV section h2 {
+    font-size: 1.2rem;
+    color: #C94444;
+    margin-bottom: 0.5rem;
+}
+
+#MonCV section ul {
+    margin-left: 1.5rem;
+}
+
 /********************* FOOTER CSS ***********************/
 
 footer {
@@ -198,13 +220,23 @@ footer {
     margin-bottom: 12rem;
 }
 
-footer ul {
+footer .socialMedia ul {
     display: flex;
     flex-flow: row nowrap;
 }
 
-footer li {
+footer .socialMedia li {
     list-style-type: none;
+}
+
+footer .socialMedia a {
+    display: block;
+    padding: 10px;
+}
+
+footer .socialMedia a :hover{
+    fill: red;
+
 }
 
 /* -----
