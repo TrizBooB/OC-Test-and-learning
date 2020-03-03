@@ -198,14 +198,21 @@ aside h2 {
     margin-bottom: 1.2rem;
 }
 
-#MonCV section h2 {
+#MonCV h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+#MonCV h3 {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
 
-#MonCV section h3 {
+#MonCV h4 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+	color: #C94444;
 }
 
 #MonCV section ul {
