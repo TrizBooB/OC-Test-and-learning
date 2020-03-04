@@ -191,6 +191,16 @@ aside h2 {
 
 /********************* MON CV CSS ***********************/
 
+#MonCV .inline {
+    display: inline-block;
+}
+
+#MonCV #lisere {
+    border-right: #C94444 2px solid;
+    width: 100px;
+    height: 1000px;
+}
+
 #MonCV section div {
     border: 2px solid #C94444;
     background-color: white;
