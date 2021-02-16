@@ -219,6 +219,17 @@ aside h2 {
     height: 300px;
 }
 
+@media screen and (max-width: 600px)
+{
+    #MonCV #liseret {
+        display: none;
+    }
+
+    #MonCV #MonCv-main-flex {
+        display: block;
+    }
+}
+
 #MonCV-main {
     width: 85%;
 }
