@@ -1,0 +1,30 @@
+body {
+    font-family: 'Truculenta', sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+/*##################################*/
+/*############# GRILLE #############*/
+/*#################################*/
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1230px;
+    }
+}
+
+
+.pink {
+    background-color: #f5989d;
+}
+
+.blue {
+    background-color: #615f7d;
+}
+
+.green {
+    background-color: #09a298;
+}
