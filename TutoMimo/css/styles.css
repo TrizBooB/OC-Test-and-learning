@@ -80,6 +80,10 @@ p {
     /*vertical-align: top;*/
 }
 
+.footer .column:last-child {
+    text-align: right;
+}
+
 .footer h4 {
     color: white;
     text-transform: uppercase;
