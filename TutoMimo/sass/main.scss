@@ -40,12 +40,11 @@ p {
 
         text-transform: uppercase;
         letter-spacing: 0.1em;
+
+        &:hover {
+            color: #222;
+        }
     }
-}
-
-
-.header a:hover {
-    color: #222;
 }
 
 .header__title {
@@ -60,11 +59,11 @@ p {
     display: block;
     float: right;
     margin-top: 0;
-}
 
-.header__nav li {
-    display: inline;
-    padding-left: 20px;
+    li {
+        display: inline;
+        padding-left: 20px;
+    }
 }
 
 /* --------------------- FOOTER ----------------------------- */
@@ -72,6 +71,20 @@ p {
 .footer {
     background-color: #2f2f2f;
     padding: 50px 0;
+
+    .column:last-child {
+        text-align: right;
+    }
+
+    h4 {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        color: white;
+    }
 }
 
 .column {
@@ -80,27 +93,12 @@ p {
     /*vertical-align: top;*/
 }
 
-.footer .column:last-child {
-    text-align: right;
-}
-
-.footer h4 {
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-.footer p {
-    color: white;
-}
-
 a {
     color: #1abc9c;
     text-decoration: none;
-}
-
-a:hover {
-    color: #F6A623;
+    &:hover {
+        color: #F6A623;
+    }
 }
 
 /* --------------------- POST ----------------------------- */
@@ -114,16 +112,18 @@ a:hover {
     background-color: #f2f2f2;
 }
 
-.post__author img {
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
-    border-radius: 50%;
-}
+.post__author {
+    img {
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        border-radius: 50%;
+    }
 
-.post__author span {
-    margin-left: 16px;
-}
+    span {
+        margin-left: 16px;
+    }
+} 
 
 .post__date {
     color: #D2D2D2;
