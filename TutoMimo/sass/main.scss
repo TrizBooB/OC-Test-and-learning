@@ -45,26 +45,27 @@ p {
             color: #222;
         }
     }
-}
 
-.header__title {
-    display: block;
-    float: left;
+    &__title {
+        display: block;
+        float: left;
 
-    font-size: 20px;
-    font-weight: bold;
-}
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-.header__nav {
-    display: block;
-    float: right;
-    margin-top: 0;
+    &__nav {
+        display: block;
+        float: right;
+        margin-top: 0;
 
-    li {
-        display: inline;
-        padding-left: 20px;
+        li {
+            display: inline;
+            padding-left: 20px;
+        }
     }
 }
+
 
 /* --------------------- FOOTER ----------------------------- */
 
