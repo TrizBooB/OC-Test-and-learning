@@ -3,6 +3,7 @@
     CSS style sheet
     03/2021
 */
+/* --------------------- VARIABLE --------------------------- */
 /* --------------------- GLOBAL ----------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
@@ -39,14 +40,12 @@ p {
 .header a:hover {
   color: #222;
 }
-
 .header__title {
   display: block;
   float: left;
   font-size: 20px;
   font-weight: bold;
 }
-
 .header__nav {
   display: block;
   float: right;

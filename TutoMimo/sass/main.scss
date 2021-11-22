@@ -4,6 +4,10 @@
     03/2021
 */
 
+/* --------------------- VARIABLE --------------------------- */
+$vert: #1abc9c;
+$orange: #F6A623;
+
 /* --------------------- GLOBAL ----------------------------- */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -31,7 +35,7 @@ p {
 /* --------------------- HEADER ----------------------------- */
 
 .header {
-    background-color: #1abc9c;
+    background-color: $vert;
     height: 150px;
     line-height: 150px;
     a {
@@ -95,10 +99,10 @@ p {
 }
 
 a {
-    color: #1abc9c;
+    color: $vert;
     text-decoration: none;
     &:hover {
-        color: #F6A623;
+        color: $orange;
     }
 }
 
